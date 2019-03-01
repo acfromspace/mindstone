@@ -17,12 +17,7 @@ class App extends Component {
           <img src={astronaut} className="App-logo" alt="acfromspace" />
         </div>
         <div className="Textbox">
-          <p>
-            <font color="#D1BEE5">You are not alone.</font>
-          </p>
-          <p>
-            <font color="#D1BEE5">I'm here for you.</font>
-          </p>
+          <h1>YOU ARE LOVED</h1>
         </div>
       </div>
     );
