@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ReactPlayer from "react-player";
+import SoundCloudPlayer from "react-player/lib/players/SoundCloud";
 import astronaut from "./astronaut.svg";
 import "./App.css";
 
@@ -7,16 +7,14 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="player-wrapper">
-          <ReactPlayer
-            className="react-player"
-            url="https://soundcloud.com/not-bees/datewave"
-            playing
-            loop
-          />
-        </div>
+        <SoundCloudPlayer
+          className="react-player"
+          url="https://soundcloud.com/not-bees/datewave"
+          playing="true"
+          loop="true"
+        />
         <div className="Astronaut">
-          <img src={astronaut} className="App-logo" alt="logo" />
+          <img src={astronaut} className="App-logo" alt="acfromspace" />
         </div>
         <div className="Textbox">
           <p>
