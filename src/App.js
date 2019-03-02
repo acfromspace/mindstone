@@ -8,30 +8,52 @@ class App extends Component {
   render() {
     // size may also be a plain string using the presets 'large' or 'compact'
     const size = {
-      width: "100%",
-      height: 300,
+      width: 300,
+      height: 500,
     };
     const view = "list"; // or 'coverart'
     const theme = "black"; // or 'white'
     return (
-      <div className="App">
-        {/* <ReactPlayer
-          className="react-player"
-          playing="true"
-          url={[
-            "https://soundcloud.com/not-bees/datewave",
-          ]}
-        /> */}
-        <div className="Astronaut">
+      <div className="Main">
+        <div className="Header">
           <img src={astronaut} className="App-logo" alt="acfromspace" />
         </div>
-        <div className="Textbox">
+        <div className="Players">
+          <ReactPlayer
+            url={["https://soundcloud.com/acfromspace/sets/roxanne"]}
+            width="300px"
+            height="500px"
+          />
+          <ReactPlayer
+            url={["https://soundcloud.com/acfromspace/sets/roxanne"]}
+            width="300px"
+            height="500px"
+          />
+          <ReactPlayer
+            url={["https://soundcloud.com/acfromspace/sets/roxanne"]}
+            width="300px"
+            height="500px"
+          />
           <SpotifyPlayer
             uri="spotify:user:1252712964:playlist:0XVxReRFFUe7Z5DFYPdOSU"
             size={size}
             view={view}
             theme={theme}
           />
+          <SpotifyPlayer
+            uri="spotify:user:1252712964:playlist:0XVxReRFFUe7Z5DFYPdOSU"
+            size={size}
+            view={view}
+            theme={theme}
+          />
+          <SpotifyPlayer
+            uri="spotify:user:1252712964:playlist:0XVxReRFFUe7Z5DFYPdOSU"
+            size={size}
+            view={view}
+            theme={theme}
+          />
+        </div>
+        <div className="Footer">
           <h1>YOU ARE LOVED</h1>
         </div>
       </div>
