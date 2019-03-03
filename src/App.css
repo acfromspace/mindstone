@@ -1,15 +1,16 @@
 .Main {
+  text-align: center;
   background-color: #000000;
   min-height: 100vh;
   display: grid;
-  grid-template-rows: 1fr 5fr 1fr;
+  grid-template-rows: auto auto auto;
   grid-template-areas: "Header" "Players" "Footer";
 }
 
 .App-logo {
   animation: Im-floating-yay infinite 15s linear;
   height: 20vmin;
-  padding: 50px;
+  padding: 5vmin;
 }
 
 .Header {
