@@ -1,50 +1,35 @@
-.App {
+.Main {
   text-align: center;
   background-color: #000000;
   min-height: 100vh;
   display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-areas: "Astronaut" "Textbox";
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "Header" "Players" "Footer";
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 15s linear;
+  animation: Im-floating-yay infinite 15s linear;
   height: 20vmin;
-  pointer-events: none;
+  padding: 5vmin;
 }
 
-.Astronaut {
-  grid-area: Astronaut;
-  align-self: center;
-  justify-self: center;
-}
-
-.Textbox {
-  grid-area: Textbox;
-  align-self: center;
-  justify-self: center;
-}
-
-.react-player {
-  display: none;
-}
-
-/* .App-header {
-  background-color: #36393f;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.Header {
+  grid-area: Header;
+  justify-items: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-} */
-
-.App-link {
-  color: #7289da;
 }
 
-@keyframes App-logo-spin {
+.Players {
+  grid-area: Players;
+}
+
+.Footer {
+  grid-area: Footer;
+  justify-items: center;
+  align-items: center;
+}
+
+@keyframes Im-floating-yay {
   from {
     transform: rotate(0deg);
   }
