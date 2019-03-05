@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import astronaut from "../images/astronaut.svg";
-import "../App.css";
+import "../style/App.css";
 
 export default class Header extends Component {
   render() {

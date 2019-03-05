@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./App.css";
+import "./style/App.css";
 
 import Header from "./components/Header.js";
 import Players from "./components/Players.js";
