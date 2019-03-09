@@ -1,5 +1,0 @@
-# Notes
-
-## Packages
-
-- `react-player`
