@@ -10,13 +10,14 @@
 .App-logo {
   animation: Im-floating-yay infinite 15s linear;
   height: 20vmin;
-  padding: 5vmin;
 }
 
 .Header {
   grid-area: Header;
-  justify-items: center;
   align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 7vmin;
 }
 
 .Players {
@@ -25,8 +26,11 @@
 
 .Footer {
   grid-area: Footer;
-  justify-items: center;
   align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 @keyframes Im-floating-yay {
