@@ -9,28 +9,28 @@ export default class Players extends Component {
       <div className="Players">
         <iframe
           title={uniqueTitle}
-          src="https://open.spotify.com/embed/user/1252712964/playlist/1su6mhUPJxkVvwhmBAwpPj"
+          src="https://open.spotify.com/embed/playlist/1su6mhUPJxkVvwhmBAwpPj"
           width={width}
           height={height}
-          frameborder="0"
+          frameBorder="0"
           allowtransparency="true"
           allow="encrypted-media"
         />
         <iframe
           title={uniqueTitle}
-          src="https://open.spotify.com/embed/user/1252712964/playlist/0XVxReRFFUe7Z5DFYPdOSU"
+          src="https://open.spotify.com/embed/playlist/0XVxReRFFUe7Z5DFYPdOSU"
           width={width}
           height={height}
-          frameborder="0"
+          frameBorder="0"
           allowtransparency="true"
           allow="encrypted-media"
         />
         <iframe
           title={uniqueTitle}
-          src="https://open.spotify.com/embed/user/1252712964/playlist/37i9dQZF1DWTTHy0vndijk"
+          src="https://open.spotify.com/embed/playlist/37i9dQZF1DWTTHy0vndijk"
           width={width}
           height={height}
-          frameborder="0"
+          frameBorder="0"
           allowtransparency="true"
           allow="encrypted-media"
         />
@@ -39,15 +39,15 @@ export default class Players extends Component {
           width={width}
           height={height}
           scrolling="no"
-          frameborder="no"
+          frameBorder="no"
           allow="autoplay"
-          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/204382042&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/735923574&color=%232d2d2d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
         />
         <iframe
           title={uniqueTitle}
           width={width}
           height={height}
-          src="https://www.youtube.com/embed/qK9OLRbAW30"
+          src="https://www.youtube.com/embed/2atQnvunGCo"
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
